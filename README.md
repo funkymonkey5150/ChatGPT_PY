@@ -34,9 +34,6 @@ I plan on allowing the same level of customization as PyChatGPT.   I’m run
 [![PyPi](https://img.shields.io/pypi/v/chatgptpy.svg)](https://pypi.python.org/pypi/chatgptpy)
 [![PyPi](https://img.shields.io/pypi/dm/chatgptpy.svg)](https://pypi.python.org/pypi/chatgptpy)
 
-*⭐️ Like this repo? please star & consider donating to keep it maintained*
-
-<a href="https://www.buymeacoffee.com/rawandahmed" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 *💡 If OpenAI change their API, I will fix it as soon as possible, so <mark>Watch</mark> the repo if you want to be notified*
 
@@ -64,16 +61,6 @@ Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [
 [//]: # (Italic centred text saying screenshots)
 <p align="center">Creating a token</p>
 
-![Screenshot 2](https://media.discordapp.net/attachments/1038565125482881027/1049072247442264094/image.png?width=2468&height=885)
-
-```
-You: Hi there, My name is Rawa
-Chat GPT: Hello Rawa, nice to meet you. Is there something you would like to talk about or ask me? I'm here to help with any questions you may have.
-You: great, now say my name like Heisenberg
-Chat GPT: Sure, Rawa like Heisenberg. Is there anything else you would like to talk about? I'm here to help with any questions you may have.
-You: Sorry I meant like the episode of Breaking Bad where Walter White says Heisenberg
-Chat GPT: Ah, I see. In that case, you could try saying it like this: "My name is Rawa, like Heisenberg." This is a reference to the character Walter White from the TV show Breaking Bad, who often used the pseudonym "Heisenberg" when conducting illegal activities. The character was known for his cool and calculated demeanor, so saying your name like Heisenberg in this context would mean saying it with confidence and authority.
- ```
 
 ## Install
 ```
@@ -216,6 +203,8 @@ If the token creation process is failing:
 
 ### What's next?
 I'm planning to add a few more features, such as:
+
+
 - [x] A python module that can be imported and used in other projects
 - [x] A way to save the conversation
 - [ ] Better error handling
@@ -234,7 +223,7 @@ First, I'd like to tell you that "just making http" requests is not going to be 
 If you look at the `auth.py` file, there are over nine functions, each one of them is responsible for a different task, and they all
 work together to create a token for you. `allow-redirects` played a huge role in this, as it allowed to navigate through the login process
 
-I work at MeshMonitors.io, We make amazing tools (Check it out yo!). I decided not to spend too much time on this, but here we are.
+
 
 ### Why did I do this?
 No one has been able to do this, and I wanted to see if I could.
